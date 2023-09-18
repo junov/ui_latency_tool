@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+  <title>Measure latency from mouse click on button to page repaint</title>
+  <script src="../test_harness/test_harness.js"></script>
+</head>
+<body>
+  <button id="click-target">Test Click Target</button> 
+</body>
+<script>
+TestHarness.TestFunc = async () => {
+  await TestHarness.UserInput("x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 x10 d100 ");
+}
+</script>
